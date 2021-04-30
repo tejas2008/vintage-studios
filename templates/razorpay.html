@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <title>Razorpay</title>
+    <style>
+    .razorpay-payment-button {
+        display:none ;
+    }
+    #logo { 
+        background-color: black !important;
+    }
+     button{
+        margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+     }
+
+    </style>
+</head>
+<body>
+    <button href="\" style="text-align: center; align-items: center; justify-content: center; display: flex;">Go to home</button>
+    <form action="/success" method="POST">
+        <script
+            src="https://checkout.razorpay.com/v1/checkout.js"
+            data-key="{{ api_key }}" 
+            data-amount="{{ amount }}" 
+            data-currency="INR"
+            data-id="{{ order_id }}"
+            data-buttontext="Pay with Razorpay"
+            data-name="Vintage Studios"
+            data-description="Payment"
+            data-image="\static\img\logo-black.png"
+            data-prefill.name="{{ name }}"
+            data-prefill.email="{{ email }}"
+            data-prefill.contact="{{ mobile }}"
+            data-theme.color="#000000"
+            
+        ></script>
+        <input type="hidden" custom="Hidden Element" name="hidden">
+        </form>
+<script>
+    $(document).ready(function(){
+        $('.razorpay-payment-button').click();
+    });
+</script>
+    </body>
+
+</html>
+
+
+
+<!-- id  = rzp_test_wH9sWe0SHm4xf8 -->
+
+<!-- secret = T9Otlwn38HezKyge4zmGeDDC -->
