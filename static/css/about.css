@@ -1,0 +1,28 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: black;
+    color: black;
+    overflow-x: hidden;
+}
+
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.logo img{
+	width:47px;
+}
+.navbar{
+    background-color:rgba(0, 0, 0, 0.4);
+      letter-spacing: 2px;
+  }
+  .nav-item{
+      text-align: end;
+  }

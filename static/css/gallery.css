@@ -21,6 +21,9 @@ body {
 	font-family: "Poppins", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
+	border: 0px;
+	padding: 0px;
+	width: 100%;
 }
 .mixitup-control-active, .cat-tog:hover {
 	border: #000 1px solid;
