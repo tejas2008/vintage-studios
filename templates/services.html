@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="static/css/bootstrap.min.css"/>
@@ -27,7 +28,7 @@
     <!-- <link rel="stylesheet" href="static/css/gallery.css"/> -->
 
 </head>
-<body style="background-color: black;" onload="typeWriter()">
+<body style="background-color: black; font-family: 'Playfair Display', serif;" onload="typeWriter()">
 
   <nav class="navbar navbar-expand-lg navbar-transparent navbar-dark fixed-top" style="color: aliceblue;" data-ride="carousel" data-aos="fade-down" data-aos-duration="1000">
     <div class="container" data-ride="carousel" data-aos="fade-down" data-aos-duration="1000">
@@ -47,13 +48,13 @@
             <a class="nav-link" href="/services">Services
               <span class="sr-only">(current)</span></a>
           </li>
+          <li class="nav-item mr-4">
+            <a class="nav-link" href="/gallery">Gallery</a>
+          </li>
           <li class="nav-item  mr-4">
             <a class="nav-link" href="/contact">Contact
               
             </a>
-          </li>
-          <li class="nav-item mr-4">
-            <a class="nav-link" href="/gallery">Gallery</a>
           </li>
           <!-- <li class="nav-item mr-4">
             <a class="nav-link" href="#">PhotoStudio </a>
@@ -87,9 +88,161 @@
           setTimeout(typeWriter, speed);
         }
       }
-  </script>
+</script>
+
+
+<div id='content-desktop'>
+  <section class="" style="padding: 8%; overflow-x:hidden">
+    <div class="card-group p-2 pt-4" style="background-color:black;" >
+    <div class="card col-md-6 ser-cd" style="background-color:black; height: 30rem; " data-aos="fade-right" data-aos-duration="1000">
+      <img src="static/img/services/product.jpg" class="card-img-top ser-cd" alt="" style="height: 30rem; border-radius: 10px; ">
+    </div>
+    <div class="card text-white col-md-6 ser-cd" style="background-color: #101010; height: 30rem;">
+      <div class="card-body text-center vertical-centre" style="font-size: small;">
+        <h4 >Product Photography</h4>
+        <br>
+        <p class="card-text" style="background-color: #101010;">
+          Presenting a product in the best possible aesthetic visual representation, which is worth a thousand words to express the product itself
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="card-group p-2 pt-4" style="background-color:black; margin-top:5%;" >
+    <div class="card text-white col-md-6 ser-cd" style="background-color: black; height: 30rem;">
+      <div class="card-body text-center vertical-centre" style="font-size: small;">
+        <h4 >Events Photography</h4>
+        <br>
+        <p class="card-text">
+          It’s all about capturing your precious moments & making it a memory to cherish
+        </p>
+      </div>
+    </div>
+    <div class="card col-md-6 ser-cd" style="background-color: black; height: 30rem; " data-aos="fade-left" data-aos-duration="1000">
+      <img src="static/img/services/Events.jpg" class="card-img-top ser-cd" alt="" style="height: 30rem; border-radius: 10px;">
+    </div>
+  </div>
+  <div class="card-group p-2 pt-4" style="background-color:black; margin-top:5%;" >
+    <div class="card col-md-6 ser-cd" style="background-color:black; height: 30rem; " data-aos="fade-right" data-aos-duration="1000">
+      <img src="static/img/services/Portfolio.jpg" class="card-img-top ser-cd" alt="" style="height: 30rem; border-radius: 10px;">
+    </div>
+    <div class="card text-white col-md-6 ser-cd" style="background-color: #101010; height: 30rem;">
+      <div class="card-body text-center vertical-centre" style="font-size: small;">
+        <h4 >Portfolio</h4>
+        <br>
+        <p class="card-text" style="background-color: #101010;">
+          Capturing a picture to portray your self worth and finding yourself once again
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="card-group p-2 pt-4" style="background-color: black; margin-top:5%;" >
+    <div class="card text-white col-md-6 ser-cd" style="background-color: black; height: 30rem;">
+      <div class="card-body text-center vertical-centre" style="font-size: small;">
+        <h4 >Interior Photography</h4>
+        <br>
+        <p class="card-text">
+          The art in which photographers revolve their work around different interior designs which an infrastructure has to offer
+        </p>
+      </div>
+    </div>
+    <div class="card col-md-6 ser-cd" style="background-color: black; height: 30rem; " data-aos="fade-left" data-aos-duration="1000">
+      <img src="static/img/services/interior.jpg" class="card-img-top ser-cd" alt="" style="height: 30rem; border-radius: 10px;">
+    </div>
+  </div>
+  <div class="card-group p-2 pt-4" style="background-color:black; margin-top:5%;" >
+    <div class="card col-md-6 ser-cd" style="background-color:black; height: 30rem; " data-aos="fade-right" data-aos-duration="1000">
+      <img src="static/img/services/architectural.jpg" class="card-img-top ser-cd" alt="" style="height: 30rem; border-radius: 10px;">
+    </div>
+    <div class="card text-white col-md-6 ser-cd" style="background-color: #101010; height: 30rem;">
+      <div class="card-body text-center vertical-centre" style="font-size: small;">
+        <h4 >Architectural Photography</h4><br>
+        <p class="card-text" style="background-color: #101010;">
+          Photographing the structural aesthetics and accuracy of buildings and monuments
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="card-group p-2 pt-4" style="background-color: black; margin-top:5%;" >
+    <div class="card text-white col-md-6 ser-cd" style="background-color: black; height: 30rem;">
+      <div class="card-body text-center vertical-centre" style="font-size: small;">
+        <h4 >Short Films</h4>
+        <br>
+        <p class="card-text">
+          Expressing a short & simple but creative concept in motion picture 
+        </p>
+      </div>
+    </div>
+    <div class="card col-md-6 ser-cd" style="background-color: black; height: 30rem; " data-aos="fade-left" data-aos-duration="1000">
+      <img src="static/img/services/short films.jpg" class="card-img-top ser-cd" alt="" style="height: 30rem; border-radius: 10px;">
+    </div>
+  </div>
+  <div class="card-group p-2 pt-4" style="background-color:black; margin-top:5%;" >
+    <div class="card col-md-6 ser-cd" style="background-color:black; height: 30rem; " data-aos="fade-right" data-aos-duration="1000">
+      <img src="static/img/services/ad films.jpg" class="card-img-top ser-cd" alt="" style="height: 30rem; border-radius: 10px;">
+    </div>
+    <div class="card text-white col-md-6 ser-cd" style="background-color: #101010; height: 30rem;">
+      <div class="card-body text-center vertical-centre" style="font-size: small;">
+        <h4 >Ad Films</h4>
+        <br>
+        <p class="card-text" style="background-color: #101010;">
+          A commercial ad film to express the story of your product or service 
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="card-group p-2 pt-4" style="background-color:black; margin-top:5%;" >
+    
+    <div class="card text-white col-md-6 ser-cd" style="background-color: black; height: 30rem;">
+      <div class="card-body text-center vertical-centre" style="font-size: small;">
+        <h4 >Business Promo videos</h4>
+        <br>
+        <p class="card-text" style="background-color: black; margin-top:5%;">
+          A promotional storyline of your brand to convert your audience into customers
+        </p>
+      </div>
+    </div>
+    <div class="card col-md-6 ser-cd" style="background-color:black; height: 30rem; " data-aos="fade-left" data-aos-duration="1000">
+      <img src="static/img/services/Business Promo video.jpg" class="card-img-top ser-cd" alt="" style="height: 30rem; border-radius: 10px;">
+    </div>
+  </div>
+  <div class="card-group p-2 pt-4" style="background-color:black; margin-top:5%;" >
+    <div class="card col-md-6 ser-cd" style="background-color:black; height: 30rem; " data-aos="fade-right" data-aos-duration="1000">
+      <img src="static/img/services/wedding_ pre-wedding.jpg" class="card-img-top ser-cd" alt="" style="height: 30rem; border-radius: 10px;">
+    </div>
+    <div class="card text-white col-md-6 ser-cd" style="background-color: #101010; height: 30rem;">
+      <div class="card-body text-center vertical-centre" style="font-size: small;">
+        <h4 >Weddings/Pre - weddings</h4>
+        <br>
+        <p class="card-text" style="background-color: #101010;">
+          Capturing your precious lifetime moments on the reels and cherishing them
+        </p>
+      </div>
+    </div>
+    
+  </div>
+  <div class="card-group p-2 pt-4" style="background-color:black; margin-top:5%;" >
+    
+    <div class="card text-white col-md-6 ser-cd" style="background-color: black; height: 30rem;">
+      <div class="card-body text-center vertical-centre" style="font-size: small;">
+        <h4 >Editing</h4>
+        <br>
+        <p class="card-text" style="background-color: black;">
+          We provide post production services too such as video editing & photo retouching to enhance the quality & features
+        </p>
+      </div>
+    </div>
+    <div class="card col-md-6 ser-cd" style="background-color:black; height: 30rem; " data-aos="fade-left" data-aos-duration="1000">
+      <img src="static/img/services/Editing.jpg" class="card-img-top ser-cd" alt="" style="height: 30rem; border-radius: 10px;">
+    </div>
+  </div>
+</section>
+  </div>
+  
+
+
+  <div id='content-mobile'>
     <section class="" style="padding: 8%; overflow-x:hidden">
-      <div class="card-group p-5" style="background-color:black;" >
+      <div class="card-group p-2 pt-4" style="background-color:black;" >
       <div class="card col-md-6 ser-cd" style="background-color:black; height: 30rem; " data-aos="fade-right" data-aos-duration="1000">
         <img src="static/img/services/product.jpg" class="card-img-top ser-cd" alt="" style="height: 30rem; border-radius: 10px; ">
       </div>
@@ -103,7 +256,10 @@
         </div>
       </div>
     </div>
-    <div class="card-group p-5" style="background-color:black;" >
+    <div class="card-group p-2 pt-4" style="background-color:black; margin-top:5%;" >
+      <div class="card col-md-6 ser-cd" style="background-color: black; height: 30rem; " data-aos="fade-left" data-aos-duration="1000">
+        <img src="static/img/services/Events.jpg" class="card-img-top ser-cd" alt="" style="height: 30rem; border-radius: 10px;">
+      </div>
       <div class="card text-white col-md-6 ser-cd" style="background-color: black; height: 30rem;">
         <div class="card-body text-center vertical-centre" style="font-size: small;">
           <h4 >Events Photography</h4>
@@ -113,13 +269,10 @@
           </p>
         </div>
       </div>
-      <div class="card col-md-6 ser-cd" style="background-color: black; height: 30rem; " data-aos="fade-left" data-aos-duration="1000">
-        <img src="static/img/services/Events .jpg" class="card-img-top ser-cd" alt="" style="height: 30rem;">
-      </div>
     </div>
-    <div class="card-group p-5" style="background-color:black;" >
+    <div class="card-group p-2 pt-4" style="background-color:black; margin-top:5%;" >
       <div class="card col-md-6 ser-cd" style="background-color:black; height: 30rem; " data-aos="fade-right" data-aos-duration="1000">
-        <img src="static/img/services/Portfolio.jpg" class="card-img-top ser-cd" alt="" style="height: 30rem;">
+        <img src="static/img/services/Portfolio.jpg" class="card-img-top ser-cd" alt="" style="height: 30rem; border-radius: 10px;">
       </div>
       <div class="card text-white col-md-6 ser-cd" style="background-color: #101010; height: 30rem;">
         <div class="card-body text-center vertical-centre" style="font-size: small;">
@@ -131,7 +284,10 @@
         </div>
       </div>
     </div>
-    <div class="card-group p-5" style="background-color: black;" >
+    <div class="card-group p-2 pt-4" style="background-color: black; margin-top:5%;" >
+      <div class="card col-md-6 ser-cd" style="background-color: black; height: 30rem; " data-aos="fade-left" data-aos-duration="1000">
+        <img src="static/img/services/interior.jpg" class="card-img-top ser-cd" alt="" style="height: 30rem; border-radius: 10px;">
+      </div>
       <div class="card text-white col-md-6 ser-cd" style="background-color: black; height: 30rem;">
         <div class="card-body text-center vertical-centre" style="font-size: small;">
           <h4 >Interior Photography</h4>
@@ -141,25 +297,24 @@
           </p>
         </div>
       </div>
-      <div class="card col-md-6 ser-cd" style="background-color: black; height: 30rem; " data-aos="fade-left" data-aos-duration="1000">
-        <img src="static/img/services/interior.jpg" class="card-img-top ser-cd" alt="" style="height: 30rem;">
-      </div>
     </div>
-    <div class="card-group p-5" style="background-color:black;" >
+    <div class="card-group p-2 pt-4" style="background-color:black; margin-top:5%;" >
       <div class="card col-md-6 ser-cd" style="background-color:black; height: 30rem; " data-aos="fade-right" data-aos-duration="1000">
-        <img src="static/img/services/architectural.jpg" class="card-img-top ser-cd" alt="" style="height: 30rem;">
+        <img src="static/img/services/architectural.jpg" class="card-img-top ser-cd" alt="" style="height: 30rem; border-radius: 10px;">
       </div>
       <div class="card text-white col-md-6 ser-cd" style="background-color: #101010; height: 30rem;">
         <div class="card-body text-center vertical-centre" style="font-size: small;">
-          <h4 >Architectural Photography</h4>
-          <br>
+          <h4 >Architectural Photography</h4><br>
           <p class="card-text" style="background-color: #101010;">
             Photographing the structural aesthetics and accuracy of buildings and monuments
           </p>
         </div>
       </div>
     </div>
-    <div class="card-group p-5" style="background-color: black;" >
+    <div class="card-group p-2 pt-4" style="background-color: black; margin-top:5%;" >
+      <div class="card col-md-6 ser-cd" style="background-color: black; height: 30rem; " data-aos="fade-left" data-aos-duration="1000">
+        <img src="static/img/services/short films.jpg" class="card-img-top ser-cd" alt="" style="height: 30rem; border-radius: 10px;">
+      </div>
       <div class="card text-white col-md-6 ser-cd" style="background-color: black; height: 30rem;">
         <div class="card-body text-center vertical-centre" style="font-size: small;">
           <h4 >Short Films</h4>
@@ -169,13 +324,10 @@
           </p>
         </div>
       </div>
-      <div class="card col-md-6 ser-cd" style="background-color: black; height: 30rem; " data-aos="fade-left" data-aos-duration="1000">
-        <img src="static/img/services/short films.jpg" class="card-img-top ser-cd" alt="" style="height: 30rem;">
-      </div>
     </div>
-    <div class="card-group p-5" style="background-color:black;" >
+    <div class="card-group p-2 pt-4" style="background-color:black; margin-top:5%;" >
       <div class="card col-md-6 ser-cd" style="background-color:black; height: 30rem; " data-aos="fade-right" data-aos-duration="1000">
-        <img src="static/img/services/ad films.jpg" class="card-img-top ser-cd" alt="" style="height: 30rem;">
+        <img src="static/img/services/ad films.jpg" class="card-img-top ser-cd" alt="" style="height: 30rem; border-radius: 10px;">
       </div>
       <div class="card text-white col-md-6 ser-cd" style="background-color: #101010; height: 30rem;">
         <div class="card-body text-center vertical-centre" style="font-size: small;">
@@ -187,24 +339,23 @@
         </div>
       </div>
     </div>
-    <div class="card-group p-5" style="background-color:black;" >
-      
+    <div class="card-group p-2 pt-4" style="background-color:black; margin-top:5%;" >
+      <div class="card col-md-6 ser-cd" style="background-color:black; height: 30rem; " data-aos="fade-left" data-aos-duration="1000">
+        <img src="static/img/services/Business Promo video.jpg" class="card-img-top ser-cd" alt="" style="height: 30rem; border-radius: 10px;">
+      </div>
       <div class="card text-white col-md-6 ser-cd" style="background-color: black; height: 30rem;">
         <div class="card-body text-center vertical-centre" style="font-size: small;">
           <h4 >Business Promo videos</h4>
           <br>
-          <p class="card-text" style="background-color: black;">
+          <p class="card-text" style="background-color: black; margin-top:5%;">
             A promotional storyline of your brand to convert your audience into customers
           </p>
         </div>
       </div>
-      <div class="card col-md-6 ser-cd" style="background-color:black; height: 30rem; " data-aos="fade-left" data-aos-duration="1000">
-        <img src="static/img/services/Business Promo video.jpg" class="card-img-top ser-cd" alt="" style="height: 30rem;">
-      </div>
     </div>
-    <div class="card-group p-5" style="background-color:black;" >
+    <div class="card-group p-2 pt-4" style="background-color:black; margin-top:5%;" >
       <div class="card col-md-6 ser-cd" style="background-color:black; height: 30rem; " data-aos="fade-right" data-aos-duration="1000">
-        <img src="static/img/services/wedding_ pre-wedding.jpg" class="card-img-top ser-cd" alt="" style="height: 30rem;">
+        <img src="static/img/services/wedding_ pre-wedding.jpg" class="card-img-top ser-cd" alt="" style="height: 30rem; border-radius: 10px;">
       </div>
       <div class="card text-white col-md-6 ser-cd" style="background-color: #101010; height: 30rem;">
         <div class="card-body text-center vertical-centre" style="font-size: small;">
@@ -217,8 +368,10 @@
       </div>
       
     </div>
-    <div class="card-group p-5" style="background-color:black;" >
-      
+    <div class="card-group p-2 pt-4" style="background-color:black; margin-top:5%;" >
+      <div class="card col-md-6 ser-cd" style="background-color:black; height: 30rem; " data-aos="fade-left" data-aos-duration="1000">
+        <img src="static/img/services/Editing.jpg" class="card-img-top ser-cd" alt="" style="height: 30rem; border-radius: 10px;">
+      </div>
       <div class="card text-white col-md-6 ser-cd" style="background-color: black; height: 30rem;">
         <div class="card-body text-center vertical-centre" style="font-size: small;">
           <h4 >Editing</h4>
@@ -228,75 +381,82 @@
           </p>
         </div>
       </div>
-      <div class="card col-md-6 ser-cd" style="background-color:black; height: 30rem; " data-aos="fade-left" data-aos-duration="1000">
-        <img src="static/img/services/Editing.jpg" class="card-img-top ser-cd" alt="" style="height: 30rem;">
-      </div>
     </div>
   </section>
 
-</div>
+  </div>
+
+    
+
+
 <section class="footer" style="background-color: black; color:white; margin-top: 5%;" id="footer" >
-      <footer class="page-footer font-small stylish-color-dark " style="background-color: black; color:white;">
-        <div class="" style="background-color: #101010;width:100%;text-align:center;padding:25px; margin-top: 5%;">
-          <div class="pt-3" style="background-color: #181818;width:100%;padding:0px;margin:0 auto">
-          <div class="row mt-4">
-            <div class="col-md-4 text-center" id="f1">
-              <a class="" href=""><img src="./static/img/vintage_studios_logo.png" alt="" style="width: 30%; padding-right: 0px;"></a>
+    <footer class="page-footer font-small stylish-color-dark " style="background-color: black; color:white;">
+      <div class="" style="background-color: #101010;width:100%;text-align:center;padding:25px; margin-top: 5%;">
+        <div class="pt-3" style="background-color: #181818;width:100%;padding:0px;margin:0 auto">
+        <div class="row mt-4">
+          <div class="col-md-4 text-center" id="f1">
+            <a class="" href=""><img src="./static/img/vintage_studios_logo.png" alt="" style="width: 40%; padding-right: 0px;"></a>
+          </div>
+
+          <div class="col-md-4  text-center" id="f2">
+            <p style="color: white;">GET IN TOUCH</p>
+
+              <p style="color: white; font-size: 90%">Let's start a conversation about what your perfect experience would be. 
+                Let's make that dream a reality !! </p>
+              <div class="row " style="justify-content: space-evenly;">
+              <a type="submit" class="btn text-center mt-3 " style="background-color: rgba(255, 255, 255, 0.767); color:rgba(24,18,11,1); max-width: calc(100%-50px); width: 38% ;" onMouseOver="this.style.backgroundColor='white'" onMouseOut="this.style.backgroundColor='rgba(255, 255, 255, 0.767)'" href="/contact">Contact Us</a>
+              <a type="submit" class="btn text-center mt-3 " style="background-color: rgba(255, 255, 255, 0.767); color:rgba(24,18,11,1); max-width: calc(100%-50px); width: 38% ;" onMouseOver="this.style.backgroundColor='white'" onMouseOut="this.style.backgroundColor='rgba(255, 255, 255, 0.767)'" href="/pay_info">Pay now</a>
+
             </div>
-
-            <div class="col-md-4  text-center" id="f2">
-              <p style="color: white;">GET IN TOUCH</p>
-
-                <p style="color: white; font-size: 90%">Let's start a conversation about what your perfect experience would be. 
-                  Let's make that dream a reality </p>
-                <div class="row " style="justify-content: space-evenly;">
-                <a type="submit" class="btn text-center mt-3" style="background-color: rgba(255, 255, 255, 0.767); color:rgba(24,18,11,1); max-width: calc(100%-50px)" onMouseOver="this.style.backgroundColor='white'" onMouseOut="this.style.backgroundColor='rgba(255, 255, 255, 0.767)'" href="/contact">Contact Us</a>
-                <a type="submit" class="btn text-center mt-3" style="background-color: rgba(255, 255, 255, 0.767); color:rgba(24,18,11,1); max-width: calc(100%-50px)" onMouseOver="this.style.backgroundColor='white'" onMouseOut="this.style.backgroundColor='rgba(255, 255, 255, 0.767)'" href="/pay_info">Pay now</a>
-
-              </div>
+            <div class="footer-copyright text-center py-3">
+              <!-- <hr style="background-color: white;"> -->
+              <p class="mt-1">©️ 2021 All Rights Reserved. <br> <a href="/terms">Terms of Use</a>  &  <a href="/privacy"> Privacy Policy</a></p>
+      
             </div>
-            
-            <div class="col-md-4 text-center" id="f3">
-            
-              <ul class="list-unstyled list-inline text-center" >
-                 <li class="list-inline-item" >
-                <a class="btn-floating btn-dribbble mx-1" href="https://www.instagram.com/vintagestudios.in/">
-                  <i class="fab fa-instagram fa-2x" style="color: rgba(255, 255, 255, 0.767);" onMouseOver="this.style.color='white'" onMouseOut="this.style.color='rgba(255, 255, 255, 0.767)'"> </i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn-floating btn-dribbble mx-1" href="https://www.youtube.com/channel/UC3NOydGfYLP5g67RBAwumAw/featured">
-                  <i class="fab fa-youtube fa-2x" style="color: rgba(255, 255, 255, 0.767);" onMouseOver="this.style.color='white'" onMouseOut="this.style.color='rgba(255, 255, 255, 0.767)'"> </i>
-                </a>
-              </li>  
+          </div>
+          
+          <div class="col-md-4 text-center" id="f3">
+          
+            <ul class="list-unstyled list-inline text-center" >
               <li class="list-inline-item">
                 <a class="btn-floating btn-fb mx-1" href="https://www.facebook.com/vintagestudios.in/">
                   <i class="fab fa-facebook fa-2x" style="color: rgba(255, 255, 255, 0.767);" onMouseOver="this.style.color='white'" onMouseOut="this.style.color='rgba(255, 255, 255, 0.767)'"> </i>
                 </a>
               </li>
-              <li class="list-inline-item">
-                <a class="btn-floating btn-fb mx-1" href="https://wa.me/+918007022022" target="_blank">
-                  <i class="fab fa-whatsapp fa-2x" style="color: rgba(255, 255, 255, 0.767);" onMouseOver="this.style.color='white'" onMouseOut="this.style.color='rgba(255, 255, 255, 0.767)'"></i>
-                </a>
-              </li>
-              </ul>
-              
-              <p style="color: white; font-size: 90%; text-decoration: none;"><a href = "/contact" style="text-decoration: none !important; color: white"><i class="fas fa-map-marker mx-0"></i> Pune, Maharashtra, India</a> </p>
-              
-              <p style="color: white; font-size: 90%; text-decoration: none;"><a href = "mailto: info@vintagestudios.in" style="text-decoration: none !important; color: white;"><i class="fas fa-envelope mx-0"></i>  info@vintagestudios.in</a> </p>
-              <a href="https://g.page/vintagestudios_in/review?rc" style="text-decoration: none;"><img src="./static/img/google.png" alt="" style="width: 15%; padding-right: 0px;"></a>
-              <!-- <a href="whatsapp://send?abid=8652194061&text=Hello%2C%20World!" style="text-decoration: none; color: white;"></i></a> -->
-            </div>
-          </div>
-      <div class="footer-copyright text-center py-2">
-        <!-- <hr style="background-color: white;"> -->
-        <p class="mt-2">©️ 2021 All Rights Reserved. <br><br> <a href="/terms">Terms of Use</a>  and  <a href="/privacy"> Privacy Policy</a></p>
-
-      </div>
+               <li class="list-inline-item" >
+              <a class="btn-floating btn-dribbble mx-1" href="https://www.instagram.com/vintagestudios.in/">
+                <i class="fab fa-instagram fa-2x" style="color: rgba(255, 255, 255, 0.767);" onMouseOver="this.style.color='white'" onMouseOut="this.style.color='rgba(255, 255, 255, 0.767)'"> </i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-dribbble mx-1" href="https://www.youtube.com/channel/UC3NOydGfYLP5g67RBAwumAw/featured">
+                <i class="fab fa-youtube fa-2x" style="color: rgba(255, 255, 255, 0.767);" onMouseOver="this.style.color='white'" onMouseOut="this.style.color='rgba(255, 255, 255, 0.767)'"> </i>
+              </a>
+            </li>  
+            
+            <li class="list-inline-item">
+              <a class="btn-floating btn-fb mx-1" href="https://wa.me/+918007022022" target="_blank">
+                <i class="fab fa-whatsapp fa-2x" style="color: rgba(255, 255, 255, 0.767);" onMouseOver="this.style.color='white'" onMouseOut="this.style.color='rgba(255, 255, 255, 0.767)'"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-fb mx-1" href="https://www.vimeo.com/vintagestudiosproduction" target="_blank">
+                <i class="fab fa-vimeo-v fa-2x" style="color: rgba(255, 255, 255, 0.767);" onMouseOver="this.style.color='white'" onMouseOut="this.style.color='rgba(255, 255, 255, 0.767)'"></i>
+              </a>
+            </li>
+            </ul>
+            <p style="color: white; font-size: 90%; text-decoration: none;"><a href = "/contact" style="text-decoration: none !important; color: white"><i class="fas fa-map-marker mx-0"></i> Pune, Maharashtra, India</a> </p>
+            
+            <p style="color: white; font-size: 90%; text-decoration: none;"><a href = "mailto: info@vintagestudios.in" style="text-decoration: none !important; color: white;"><i class="fas fa-envelope mx-0"></i>  info@vintagestudios.in</a> </p>
+            <a href="https://g.page/vintagestudios_in/review?rc" style="text-decoration: none;"><img src="./static/img/google.png" alt="" style="width: 20%; padding-right: 0px;"></a>
+            <!-- <a href="whatsapp://send?abid=8652194061&text=Hello%2C%20World!" style="text-decoration: none; color: white;"></i></a> -->
           </div>
         </div>
-    </footer>
-  </section>
+    
+        </div>
+      </div>
+  </footer>
+</section>
     <script src="./static/node_modules/aos/dist/aos.js"></script>
     <script>
       AOS.init();

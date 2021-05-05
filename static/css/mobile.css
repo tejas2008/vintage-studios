@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+body{
+    font-family: 'Playfair Display', serif;
+    padding :0px;
+    margin: 0px;
+    width: 100%;
+}
+
+
 @media only screen and (max-width: 770px) {
     #f2 {
         padding: 4%;
@@ -19,6 +28,7 @@
     .ser-cd{
         height: 15rem !important;
         
+        
     }
 
     .vertical-centre{
@@ -32,6 +42,17 @@
     #info{
         font-size: small !important;
     }
+
+    #content-desktop {
+        display: none;
+    }
+
+    #content-mobile {
+        display: block;
+    }
+
 }
+
+
 
 

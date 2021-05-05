@@ -32,7 +32,6 @@ html, body {
 	height: 100vh;
 	-webkit-animation: gradient 25s ease infinite;
 			animation: gradient 25s ease infinite;
-	font-family: 'Dosis', sans-serif;
 }
 .header_content{
 	text-transform: uppercase;
@@ -285,3 +284,7 @@ html, body {
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
 }
+
+
+#content-desktop {display: block;}
+#content-mobile {display: none;}

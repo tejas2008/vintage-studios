@@ -292,6 +292,7 @@ summary {
     text-align: left;
     cursor: pointer;
     position: relative;
+    font-weight: 600;
   }
   details > summary::after {
     position: absolute;
@@ -318,6 +319,32 @@ summary {
     font-size: large ;
 }
 
-.counter{
+.counter-value{
     font-size: large ;
 }
+
+.c-no{height:150px;}
+.counter-Txt{text-align:center; margin-top:20px;}
+@media(min-width:320px) and (max-width:767px){ 
+.c-no{height:100%;}
+.counter-Txt{margin-top:35px;}
+.margin-bot-35{margin-bottom:35px;}
+}
+
+@media only screen and (min-width:767px) and (max-width:993px){
+    .cat {
+        font-size: small;
+    }
+    .counter-value{
+        font-size: small ;
+    }
+    .kplus{
+        font-size: small ;
+    }
+}
+
+.progress {
+    background-color:#5c5c5c !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
