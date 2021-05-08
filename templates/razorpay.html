@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../static/css/mobile.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">   
     <title>Razorpay</title>
     <style>
     .razorpay-payment-button {
@@ -13,18 +17,33 @@
     #logo { 
         background-color: black !important;
     }
-     button{
+     
+    .container {
         margin: 0;
-	position: absolute;
-	top: 50%;
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
+	    position: absolute;
+	    top: 50%;
+	    -ms-transform: translateY(-50%);
+	    transform: translateY(-50%);
+        width: 100% !important;
+        max-width: 100% !important;
      }
+
+     /* p {
+        margin: 0;
+	    position: absolute;
+	    top: 50%;
+	    -ms-transform: translateY(-50%);
+	    transform: translateY(-50%);
+     } */
+     
 
     </style>
 </head>
-<body>
-    <button href="\" style="text-align: center; align-items: center; justify-content: center; display: flex;">Go to home</button>
+<body style="background-color: black; font-family: 'Playfair Display', serif">
+    <div class="container text-center">
+        <p class="text-white text-center" > Not what you are looking for :p</p><br>
+        <a class="btn btn-light text-center" href="/" type="submit">Go to home</a>
+    </div>
     <form action="/success" method="POST">
         <script
             src="https://checkout.razorpay.com/v1/checkout.js"
