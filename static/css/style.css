@@ -352,12 +352,12 @@ summary {
     }
   
     100% {
-      transform: translate3d(-380rem, 0, 0);
+      transform: translateX(calc(-250px*25));
     }
   }
   
   .img-ticker {
-    animation: ticker-kf 25s linear infinite;
+    animation: ticker-kf 30s linear infinite;
   }
 
 /* 
@@ -397,7 +397,7 @@ summary {
     position: absolute;
     content: "";
     background: linear-gradient(to right, black 0%, rgba(255,255,255,0) 100%);
-    /* z-index: 2; */
+    z-index: 2;
   }
   .slir::before {
     left: 0;
