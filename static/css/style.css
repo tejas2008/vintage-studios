@@ -360,6 +360,8 @@ summary {
     animation: ticker-kf 30s linear infinite;
   }
 
+#content-desktop {display: block;}
+#content-mobile {display: none;}
 /* 
   .wrap {
     width: 100vw;
@@ -408,3 +410,23 @@ summary {
     top:0;
     transform: rotateZ(180deg);
   } */
+
+
+.avatar {
+    display: inline-block;
+  width: 60px;
+  height: auto;
+  /* border-radius: 50%; */
+  margin-right: 0.5rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;  
+  object-fit: cover;
+  float: left;
+}
+.checked {
+    color: orange;
+}
+.desk{
+  background-image: url('/static/img/home/vs_home.jpg');
+}

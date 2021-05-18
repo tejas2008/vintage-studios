@@ -45,14 +45,25 @@ body{
 
     #content-desktop {
         display: none;
+        
     }
 
     #content-mobile {
         display: block;
     }
 
+    
+
 }
 
+@media only screen and (max-width: 430px) {
+
+.desk{
+    background-image: url('/static/img/home/mobile_homepage.jpg')
+
+    }
+
+}
 
 
 
